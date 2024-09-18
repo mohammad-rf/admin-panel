@@ -1,0 +1,33 @@
+h3 {
+  color: white;
+  margin-block: 4px;
+}
+
+.login-form {
+  padding: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px -5px black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #463e59;
+}
+
+.login-form input {
+  border: none;
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+label {
+  color: white;
+}
+
+.login-form button {
+  margin-top: 8px;
+  background-color: white;
+  border: none;
+  padding: 4px;
+  font-size: 16px;
+}

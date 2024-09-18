@@ -1,9 +1,9 @@
-import "./App.css";
+import Landing from "./page/login";
 
 function App() {
   return (
     <>
-      <h1>Admin panel</h1>
+      <Landing />
     </>
   );
 }
