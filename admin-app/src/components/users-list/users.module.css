@@ -1,0 +1,40 @@
+/* users.module.css */
+.users-list {
+  padding: 20px;
+  background-color: #524c5fe3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -5px black;
+}
+
+.user-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.user-item > div:last-child {
+  margin-inline-start: auto;
+}
+.add-new-button {
+  display: inline-flex;
+  background-color: #262131e3;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.user-item:last-child {
+  border-bottom: none;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-item p {
+  color: white;
+}
+img {
+  border-radius: 50%;
+}

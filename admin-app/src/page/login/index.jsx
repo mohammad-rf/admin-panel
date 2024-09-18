@@ -26,7 +26,7 @@ const Login = () => {
       })
       const token = response.data.token;
       if(token){
-        console.log(token);
+        // console.log(token);
         localStorage.setItem('token', token);
         navigate('/dashboard');
       } else {

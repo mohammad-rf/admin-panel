@@ -1,0 +1,51 @@
+.user-form {
+  width: 60%;
+  margin: 100px auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px -2px black;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+
+.user-form label,
+.user-form input {
+  padding: 8px;
+}
+.user-form label {
+  cursor: pointer;
+}
+
+.user-form-footer {
+  grid-column-start: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-form-footer .btn {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.user-form-footer .btn + .btn {
+  margin-left: 5px;
+}
+.user-form-footer .btn-save {
+  background-color: rgb(72, 219, 72);
+  color: white;
+}
+.user-form-footer .btn-save:hover {
+  background-color: hsl(120, 67%, 37%);
+}
+.user-form-footer .btn-close {
+  background-color: orangered;
+  color: white;
+}
+.user-form-footer .btn-close:hover {
+  background-color: hsl(16, 100%, 40%);
+}

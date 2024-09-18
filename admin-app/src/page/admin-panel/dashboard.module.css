@@ -1,0 +1,11 @@
+.dash-wrapper {
+  padding: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px -5px black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #463e59;
+  min-width: 50%;
+  margin-block: 50px;
+}
