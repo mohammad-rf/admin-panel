@@ -1,9 +1,10 @@
-import Landing from "./page/login";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
 
 function App() {
   return (
     <>
-      <Landing />
+      <RouterProvider router={router} />
     </>
   );
 }
