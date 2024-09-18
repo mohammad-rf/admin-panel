@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './users.module.css';
 import api from '../../api/api.js';
-import CreateUser from '../user-create'
 import { Link } from 'react-router-dom';
 
 const Users = () => {
@@ -39,9 +38,9 @@ const Users = () => {
   return (
     <>
     <div className={styles['users-container']}>
-    <Link to={"new"} className={styles["add-new-button"]}>
-          add new user
-        </Link>
+      <Link to={"/dashboard/new"} className={styles["add-new-button"]}>
+        add new user
+      </Link>
       {loading ? (
         <p>Loading users...</p>
       ) : error ? (
@@ -59,6 +58,7 @@ const Users = () => {
               </div>
               <div>
                <button onClick={() => handleDelete(user.id)}>Delete</button>
+               <Link to={`/dashboard/edit/${user.id}`} >Edit</Link>
               </div>
             </li>
           ))}

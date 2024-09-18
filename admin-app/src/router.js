@@ -3,6 +3,7 @@ import Login from "./page/login";
 import Dashboard from "./page/admin-panel";
 import ProtectedRoute from "./components/protected-route";
 import CreateUser from "./components/user-create";
+import EditUser from "./components/user-edit";
 
 export const router = createBrowserRouter([
   {
@@ -10,11 +11,15 @@ export const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "/dashboard",
+    path: "dashboard",
     element: <ProtectedRoute element={<Dashboard />} />,
   },
   {
-    path: "/dashboard/new",
+    path: "dashboard/new",
     element: <CreateUser />,
+  },
+  {
+    path: "dashboard/edit/:id",
+    element: <EditUser />,
   },
 ]);

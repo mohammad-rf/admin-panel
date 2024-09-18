@@ -38,3 +38,11 @@
 img {
   border-radius: 50%;
 }
+
+a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  /* margin-top: 6px; */
+  padding: 8px 6px;
+}

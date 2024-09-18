@@ -1,9 +1,6 @@
 .user-form {
   width: 60%;
-  margin: 100px auto;
-  padding: 16px;
-  border: 1px solid #ccc;
-  box-shadow: 0 4px 6px -2px black;
+  margin: auto;
   border-radius: 4px;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -36,16 +33,16 @@
   margin-left: 5px;
 }
 .user-form-footer .btn-save {
-  background-color: rgb(72, 219, 72);
+  background-color: rgb(51 145 51);
   color: white;
 }
 .user-form-footer .btn-save:hover {
-  background-color: hsl(120, 67%, 37%);
+  background-color: #3f8f3f;
 }
 .user-form-footer .btn-close {
-  background-color: orangered;
+  background-color: #22284c;
   color: white;
 }
 .user-form-footer .btn-close:hover {
-  background-color: hsl(16, 100%, 40%);
+  background-color: #363c66;
 }
